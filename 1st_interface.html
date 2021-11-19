@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Horizontal Navigation Bar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            position: relative;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+            background-image: url("https://raw.githubusercontent.com/Sanju0506/first-page/main/project%201.jpeg");
+            background-repeat: no repeat;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        
+        h1 {
+            font-size: 85px;
+            color: black;
+            text-align: center;
+            margin-left: 0.1cm;
+            margin-top: 3cm;
+        }
+        
+        h2 {
+            font-size: 50px;
+            color: black;
+            margin-top: 0.2cm;
+        }
+        
+        .navbar {
+            display: flex;
+            /* This is used to make the navbar sticky, So that the
+     navbar stays at the top part even if we scroll */
+            position: sticky;
+            align-items: right;
+            justify-content: right;
+            top: 0px;
+            /*it specifies the mouse cursor to be displayed
+     when it is pointed over the element */
+            cursor: pointer;
+        }
+        
+        .nav-list {
+            width: 50%;
+            display: flex;
+        }
+        
+        .nav-list li {
+            list-style: none;
+            padding: 19px 0px;
+            margin-left: 1cm;
+            /* justify-content: end; */
+        }
+        
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 0px 32px;
+            text-transform: uppercase;
+        }
+        
+        .nav-list li a:hover {
+            color: black;
+        }
+        
+        .rightNav {
+            width: 50%;
+            text-align: right;
+        }
+        
+        button {
+            margin-right: 0.5cm;
+            font-size: medium;
+            padding: 10px;
+            font-family: sans-serif;
+            margin-top: 0.5cm;
+        }
+        
+        button:hover {
+            text-align: right;
+            background-color: rgb(134, 20, 138);
+            font-size: large;
+            box-shadow: 2cm;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- here in nav tag i have used two classes 
+              that is navbar and background-->
+    <!-- each class declared in nav tag will be 
+              used to design the form using CSS-->
+    <nav class="navbar background">
+        <!-- we have used list tag that is ul 
+                  to list the items-->
+        <ul class="nav-list" ">
+             <li id="#element " ><a href="#Home ">Home</a></li>
+             <li><a href="#About ">About</a></li>
+             <li><a href="#News ">News</a></li>
+             <li><a href="#Contact ">Contact</a></li>
+         </ul>
+ 
+         <!-- we have used rightnav in order to design
+                  the seachbar properly by using CSS-->
+ 
+     </nav>
+     <h1>Welcome</h1>
+     <h2>To <b>Artista</b></h2>
+     <div class="container ">
+        <button id="click ">
+          <a href="2nd_interface.html "><b>Let's explore </b></button>
+        </a>
+     </div>
+ </body>
+ 
+ </html>

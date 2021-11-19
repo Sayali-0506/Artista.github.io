@@ -1,0 +1,15 @@
+button{
+    margin-right: 0.5cm;
+    font-size: medium;
+    padding: 10px;
+    font-family:  sans-serif;
+    margin-top: 0.5cm;
+}
+
+button:hover {
+    text-align: right;
+    background-color: rgb(134, 20, 138);
+    font-size: large;
+    box-shadow: 2cm;
+ 
+}

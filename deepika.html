@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virat Kholi</title>
+    <link rel="stylesheet" href="virat_style.css">
+    <style>
+        .navbar {
+             display: flex;
+ 
+             /* This is used to make the navbar sticky, So that the
+     navbar stays at the top part even if we scroll */
+             position: sticky;
+             align-items: center;
+             justify-content:center;
+ 
+             top: 0px;
+ 
+             /*it specifies the mouse cursor to be displayed
+     when it is pointed over the element */
+             cursor: pointer;
+         }
+ 
+         .nav-list {
+             width: 70%;
+             display: flex;
+         }
+ 
+         .nav-list li {
+             list-style: none;
+             padding: 25px 0px;
+             margin-left: 1cm;
+             /* justify-content: end; */
+ 
+ 
+         }
+ 
+         .nav-list li a {
+             text-decoration: none;
+             color: white;
+ 
+             font-size: 18px;
+             padding: 0px 32px;
+             text-transform: uppercase;
+ 
+ 
+ 
+         }
+ 
+         .nav-list li a:hover {
+             color: black;
+         }
+ 
+         .rightNav {
+             width: 50%;
+             text-align:center;
+         }
+        .virat
+        {
+            color: white;position: absolute;top: 5%;width: 100%;text-align:center ;font-size: 3rem;text-shadow: 3px 3px 5px; 
+        }
+        body
+        {
+            background-image:url("artista b.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar background">
+        <!-- we have used list tag that is ul 
+                 to list the items-->
+                 <ul class="nav-list">
+                    <div class="container">
+                    
+                        <button id="click"><a href="dhoni_INFO.html"><b>Information </b></button></a>
+                        <button id="click"><a href="dhoni_awards.html"><b>Awards and Honors </b></button></a>
+                        <button id="click"><a href="dhoni_social.html"><b>Social Media Handle </b></button></a>
+                         <!-- <button id="click"><a href="VIRAT_INFO.html"><b>Information </b></button></a> -->
+                     </div>
+                </ul>
+
+        <!-- we have used rightnav in order to design
+                 the seachbar properly by using CSS-->
+
+    </nav>
+    
+    <!-- <div class="virat">
+    <h1 class="virat"><U>VIRAT KHOLI</U></h1>
+</div> -->
+<div class="virat">
+    <h2 class="virat1"> <B><u>DEEPIKA PADUKONE</u></B></h2>
+    <img src="DEEPIKAPIC.jpg" alt="virat" class="rounded" width="400" height="400">
+</div>
+</body>
+</html>
